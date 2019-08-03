@@ -7,11 +7,9 @@ function searchMinArray($array)
     for ($i = 1; $i < count($array); $i++) {
         if ($min > $array[$i]) {
             $min = $array[$i];
-
         }
-        return $min;
-
     }
+    return $min;
 }
 
 echo searchMinArray($mang);
